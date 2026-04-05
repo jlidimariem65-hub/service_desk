@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to bottom, #eaf3ff, #ffffff);
+  direction: rtl;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+/* Avatar */
+.avatar {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 80px;
+}
+
+/* Badge */
+.badge {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  background: #1e88e5;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/* Card */
+.card {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 25px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  color: red;
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 18px;
+}
+
+/* Inputs */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 60px;
+}
+
+/* Radio */
+.radio-group {
+  margin-top: 10px;
+}
+
+.radio-group label {
+  margin-left: 10px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Bottom images */
+.coins {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 120px;
+}
+
+.calc {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 120px;
+}
